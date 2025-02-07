@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/F"
+    tools:context=".view.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:titleTextAppearance="@style/ToolbarTitleStyle"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorSplash"
+            app:title="Photo Tag Home"
+            app:titleTextColor="@color/F" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homeListRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+        />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="@color/colorSplash"
+        app:tint="@color/F"
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_anchor="@id/homeListRecyclerView"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_margin="18dp"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
