@@ -39,5 +39,7 @@ The PhotoTag application is an Android project that enables users to manage thei
 https://github.com/user-attachments/assets/206d35f7-d65b-46ee-b8ae-421f4447ecd7
 
 ## Screenshots 📸
-
+| Splash Screen | Home Screen | Detail Screen | ApiGallery Screen |
+|----------------|--------------|----------------|---------------|
+| ![Image](https://github.com/user-attachments/assets/8468f129-58b2-4e1d-9eac-87c579677760) | ![Image](https://github.com/user-attachments/assets/b66e2d29-08b2-4531-b3e5-9c17f3aedc87) | ![Image](https://github.com/user-attachments/assets/ffd9c064-e7bc-4e35-8b7f-7628b524b043) | ![Image](https://github.com/user-attachments/assets/6bdb7ba3-6dee-417e-972e-53ba4d9f8bea) |
 
